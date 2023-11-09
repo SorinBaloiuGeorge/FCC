@@ -50,4 +50,4 @@ jobs:
           app-name: 'MyAppBSG-new'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D9C1A81AF50147C29669E11D938267F0 }}
-          package: '*.jar'
+          package: 'LibraryJTP.jar'
